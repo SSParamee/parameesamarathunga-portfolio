@@ -209,8 +209,6 @@ section{padding-block:72px 0; scroll-margin-top:64px}
 .contact .btn{border-color:var(--on-navy); color:var(--on-navy)}
 .contact .btn:hover{background:rgba(255,255,255,.08)}
 .contact .btn.main{border-color:var(--mark); color:var(--mark-ink)}
-.mailrow{display:flex; flex-wrap:wrap; align-items:center; gap:12px; font-size:18px; font-weight:600}
-.mailrow span{user-select:all; word-break:break-all}
 .copy{font:inherit; font-size:13px; font-weight:600; padding:5px 12px; border-radius:999px; cursor:pointer; background:transparent; color:var(--on-navy); border:1px solid rgba(255,255,255,.35)}
 .copy:hover{background:rgba(255,255,255,.1)}
 
@@ -269,7 +267,7 @@ footer{display:flex; flex-wrap:wrap; justify-content:space-between; gap:10px; fo
       <div class="links">
         <a href="https://www.linkedin.com/in/paramee-samarathunga/" target="_blank" rel="noopener">LinkedIn ↗</a>
         <a href="https://github.com/SSParamee" target="_blank" rel="noopener">GitHub ↗</a>
-        <a href="#contact">Email</a>
+        <a href="mailto:parameesamarathunga@gmail.com">Email</a>
       </div>
       <p class="status"><i aria-hidden="true"></i><span><b>Open to senior marketing roles.</b> Remote, hybrid or relocation. Sri Lanka, GMT+5:30.</span></p>
     </div>
@@ -477,7 +475,6 @@ footer{display:flex; flex-wrap:wrap; justify-content:space-between; gap:10px; fo
           <h2>Hiring for marketing? Let's talk.</h2>
           <p class="lead">I reply within one business day. References are available on request, and recommendations from colleagues and clients are on LinkedIn.</p>
         </div>
-        <div class="mailrow"><span id="email">parameesamarathunga@gmail.com</span><button class="copy" type="button" id="copyEmail">Copy</button></div>
         <div class="cta">
           <a class="btn main" href="resume.pdf" target="_blank" rel="noopener">Download résumé</a>
           <a class="btn" href="https://www.linkedin.com/in/paramee-samarathunga/" target="_blank" rel="noopener">LinkedIn ↗</a>
@@ -539,7 +536,6 @@ footer{display:flex; flex-wrap:wrap; justify-content:space-between; gap:10px; fo
     }
     try{ navigator.clipboard.writeText(text).then(ok, fallback); }catch(e){ fallback(); }
   }
-  document.getElementById('copyEmail').addEventListener('click', function(){ copy(document.getElementById('email').textContent, this, 'email'); });
 
   var form = document.getElementById('msgForm'), ready = document.getElementById('ready'), err = document.getElementById('err');
   form.addEventListener('submit', function(e){
