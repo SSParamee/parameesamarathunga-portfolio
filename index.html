@@ -1,0 +1,567 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<link rel="canonical" href="https://ssparamee.github.io/parameesamarathunga-portfolio/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Paramee Samarathunga · Senior Marketing Specialist">
+<meta property="og:description" content="Case studies in SEO, demand generation and go-to-market for B2B SaaS and AI products.">
+<meta property="og:url" content="https://ssparamee.github.io/parameesamarathunga-portfolio/">
+<meta name="twitter:card" content="summary">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23101B2D'/%3E%3Ctext x='32' y='43' font-family='Arial' font-weight='700' font-size='30' text-anchor='middle' fill='%23FFC93C'%3EPS%3C/text%3E%3C/svg%3E">
+<style>
+:root{color-scheme:light; padding-top:env(safe-area-inset-top,0px); padding-bottom:env(safe-area-inset-bottom,0px)}
+body{margin:0}
+img{max-width:100%}
+[hidden]{display:none!important}
+</style>
+<title>Paramee Samarathunga · Senior Marketing Specialist</title>
+<meta name="description" content="Paramee Samarathunga, senior marketing specialist and Head of Marketing at PineGen AI. Case studies in SEO, demand generation and go-to-market for B2B SaaS and AI products.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,700;12..96,800&family=Hanken+Grotesk:ital,wght@0,400;0,500;0,600;1,400&display=swap">
+<style>
+/* Layout: a fixed "profile rail" on the left (who, what role, how to reach) and a scrolling case file on the right.
+   Recruiters can always see the name, résumé button and contact while reading the work.
+   Marigold works like a marketer's highlighter: it only marks results and the main action. */
+:root{
+  --paper:#FFFFFF; --wash:#F3F5F8; --ink:#101B2D; --muted:#5A6577; --line:#E1E5EC;
+  --mark:#FFC93C; --mark-ink:#101B2D; --navy:#101B2D; --on-navy:#F3F5F8; --writing:#B9C1CE;
+  --display:"Bricolage Grotesque", "Arial Narrow", Arial, sans-serif;
+  --body:"Hanken Grotesk", "Segoe UI", Helvetica, Arial, sans-serif;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --paper:#0C1422; --wash:#141E2F; --ink:#E9EDF3; --muted:#9AA6B8; --line:#223047;
+    --mark:#FFC93C; --mark-ink:#101B2D; --navy:#18243A; --on-navy:#E9EDF3; --writing:#3E4C63; color-scheme:dark;
+  }
+}
+:root[data-theme="dark"]{
+  --paper:#0C1422; --wash:#141E2F; --ink:#E9EDF3; --muted:#9AA6B8; --line:#223047;
+  --mark:#FFC93C; --mark-ink:#101B2D; --navy:#18243A; --on-navy:#E9EDF3; --writing:#3E4C63; color-scheme:dark;
+}
+
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+@media (prefers-reduced-motion: reduce){ html{scroll-behavior:auto} *{transition:none!important; animation:none!important} }
+body{background:var(--paper); color:var(--ink); font-family:var(--body); font-size:17px; line-height:1.65; -webkit-font-smoothing:antialiased}
+a{color:inherit}
+:focus-visible{outline:2px solid var(--ink); outline-offset:3px; border-radius:3px}
+h1,h2,h3,h4{font-family:var(--display); margin:0; line-height:1.08; text-wrap:balance; letter-spacing:-0.02em}
+p{margin:0}
+ul{margin:0; padding:0; list-style:none}
+
+/* the highlighter */
+.hl{background:linear-gradient(transparent 58%, var(--mark) 58%, var(--mark) 92%, transparent 92%); color:inherit; padding:0 .08em}
+
+.shell{display:grid; grid-template-columns:minmax(0,1fr); max-width:1240px; margin:0 auto;
+  padding-left:max(20px, env(safe-area-inset-left,0px)); padding-right:max(20px, env(safe-area-inset-right,0px))}
+@media (min-width:1040px){ .shell{grid-template-columns:380px minmax(0,1fr); gap:88px; padding-left:max(48px, env(safe-area-inset-left,0px)); padding-right:max(48px, env(safe-area-inset-right,0px))} }
+
+/* ---------- rail ---------- */
+.rail{padding-block:48px 32px; display:flex; flex-direction:column; gap:28px}
+@media (min-width:1040px){ .rail{position:sticky; top:0; height:100vh; padding-block:64px 40px; overflow:auto} }
+.kicker{font-size:13px; font-weight:600; letter-spacing:.08em; text-transform:uppercase; color:var(--muted)}
+.name{font-size:clamp(48px, 9vw, 62px); font-weight:800; letter-spacing:-0.045em; line-height:.92}
+.role{display:grid; gap:2px; font-family:var(--display); font-size:20px; font-weight:600; letter-spacing:-0.01em}
+.role span:last-child{font-family:var(--body); font-weight:400; font-size:16px; color:var(--muted); letter-spacing:0}
+.pitch{color:var(--muted); max-width:34ch}
+
+.index{display:none}
+@media (min-width:1040px){
+  .index{display:grid; gap:4px; margin-top:8px}
+  .index a{display:flex; align-items:center; gap:14px; text-decoration:none; font-size:13px; font-weight:600; letter-spacing:.1em; text-transform:uppercase; color:var(--muted); padding-block:6px}
+  .index a::before{content:""; height:1px; width:28px; background:var(--muted); transition:width .2s ease, background .2s ease}
+  .index a:hover, .index a.on{color:var(--ink)}
+  .index a:hover::before, .index a.on::before{width:56px; background:var(--ink)}
+}
+
+.cta{display:flex; flex-wrap:wrap; gap:10px}
+.btn{display:inline-flex; align-items:center; gap:8px; font-family:var(--body); font-weight:600; font-size:15px; text-decoration:none;
+  padding:11px 18px; border-radius:999px; border:1.5px solid var(--ink); color:var(--ink); background:transparent; cursor:pointer}
+.btn:hover{background:var(--wash)}
+.btn.main{background:var(--mark); border-color:var(--mark); color:var(--mark-ink)}
+.btn.main:hover{filter:brightness(.96); background:var(--mark)}
+.links{display:flex; flex-wrap:wrap; gap:6px 18px; font-size:15px; font-weight:500}
+.links a{text-decoration:none; color:var(--muted)}
+.links a:hover{color:var(--ink); text-decoration:underline; text-underline-offset:3px}
+.status{margin-top:auto; display:flex; gap:10px; align-items:flex-start; font-size:14px; color:var(--muted); border-top:1px solid var(--line); padding-top:18px}
+.status i{flex:none; width:8px; height:8px; border-radius:50%; background:#2E9E62; margin-top:7px; box-shadow:0 0 0 4px rgba(46,158,98,.18)}
+.status b{color:var(--ink); font-weight:600}
+
+/* mobile jump bar */
+.jump{position:sticky; top:env(safe-area-inset-top,0px); z-index:5; background:var(--paper); border-bottom:1px solid var(--line);
+  display:flex; gap:20px; overflow-x:auto; padding-block:12px; margin-inline:-20px; padding-inline:20px; font-size:14px; font-weight:600}
+.jump a{text-decoration:none; color:var(--muted); white-space:nowrap}
+body::before{content:""; position:fixed; inset:0 0 auto; height:env(safe-area-inset-top,0px); z-index:10; background:var(--paper)}
+@media (min-width:1040px){ .jump{display:none} }
+
+/* ---------- content ---------- */
+main{min-width:0; padding-block:16px 64px}
+@media (min-width:1040px){ main{padding-block:64px 64px} }
+section{padding-block:56px; scroll-margin-top:56px}
+@media (min-width:1040px){ section{padding-block:40px 72px; scroll-margin-top:24px} }
+.sec-label{font-size:13px; font-weight:600; letter-spacing:.1em; text-transform:uppercase; color:var(--muted); margin-bottom:22px; display:flex; align-items:center; gap:12px}
+.sec-label::after{content:""; flex:1; height:1px; background:var(--line)}
+@media (min-width:1040px){ .sec-label{display:none} }
+.sec-label.always{display:flex}
+
+.statement{font-family:var(--display); font-size:clamp(28px, 3.6vw, 40px); font-weight:600; line-height:1.18; letter-spacing:-0.025em; max-width:26ch}
+.about-text{display:grid; gap:16px; margin-top:28px; max-width:62ch; color:var(--muted)}
+.about-text strong{color:var(--ink); font-weight:600}
+
+/* career shift: grey = documentation, marigold = marketing */
+.shift{margin-top:44px; background:var(--wash); border-radius:16px; padding:28px 28px 24px}
+.shift-head{display:flex; flex-wrap:wrap; justify-content:space-between; gap:8px 20px; align-items:baseline; margin-bottom:26px}
+.shift-head h3{font-size:19px; font-weight:700}
+.legend{display:flex; gap:16px; font-size:13px; color:var(--muted)}
+.legend span{display:inline-flex; align-items:center; gap:6px}
+.legend span::before{content:""; width:14px; height:4px; border-radius:2px; background:var(--writing)}
+.legend span.m::before{background:var(--mark)}
+.track{position:relative; display:grid; grid-template-columns:repeat(4, minmax(0,1fr)); gap:16px}
+.track::before{content:""; position:absolute; left:6px; right:6px; top:6px; height:4px; border-radius:2px;
+  background:linear-gradient(90deg, var(--writing) 0 22%, var(--mark) 46% 100%)}
+.stop{position:relative; padding-top:28px; display:grid; gap:2px; min-width:0}
+.stop::before{content:""; position:absolute; top:0; left:0; width:16px; height:16px; border-radius:50%; background:var(--paper); border:4px solid var(--writing)}
+.stop.m::before{border-color:var(--mark)}
+.stop .y{font-size:13px; font-weight:600; color:var(--muted); font-variant-numeric:tabular-nums}
+.stop .t{font-family:var(--display); font-weight:700; font-size:16px; line-height:1.25}
+.stop .c{font-size:14px; color:var(--muted)}
+@media (max-width:640px){
+  .track{grid-template-columns:1fr; gap:20px; padding-left:28px}
+  .track::before{left:6px; right:auto; top:6px; bottom:6px; width:4px; height:auto; background:linear-gradient(180deg, var(--writing) 0 22%, var(--mark) 46% 100%)}
+  .stop{padding-top:0}
+  .stop::before{left:-28px}
+}
+
+.seeking{margin-top:28px; display:grid; grid-template-columns:repeat(3, minmax(0,1fr)); gap:16px; border-top:1px solid var(--line); padding-top:22px}
+.seeking div{display:grid; gap:2px}
+.seeking span{font-size:13px; font-weight:600; letter-spacing:.06em; text-transform:uppercase; color:var(--muted)}
+.seeking b{font-weight:600; font-size:16px}
+@media (max-width:640px){ .seeking{grid-template-columns:1fr} }
+
+/* numbers band */
+.numbers{display:grid; grid-template-columns:repeat(4, minmax(0,1fr)); gap:24px; margin-top:44px}
+.num b{display:block; font-family:var(--display); font-weight:800; font-size:clamp(34px, 4vw, 46px); letter-spacing:-0.04em; line-height:1.05; font-variant-numeric:tabular-nums}
+.num span{font-size:14px; color:var(--muted); display:block; margin-top:6px; line-height:1.45}
+@media (max-width:760px){ .numbers{grid-template-columns:repeat(2, minmax(0,1fr)); gap:28px 20px} }
+
+/* ---------- work ---------- */
+.work-intro{color:var(--muted); max-width:58ch; margin-bottom:32px}
+.case{border:1px solid var(--line); border-radius:18px; overflow:hidden; background:var(--paper)}
+.case + .case{margin-top:24px}
+.case-top{background:var(--navy); color:var(--on-navy); padding:28px 30px; display:grid; grid-template-columns:minmax(0,1fr) auto; gap:24px; align-items:end}
+.case-top .who{font-size:13px; font-weight:600; letter-spacing:.08em; text-transform:uppercase; opacity:.7}
+.case-top h3{font-size:clamp(22px, 2.6vw, 30px); font-weight:700; margin-top:10px; max-width:24ch}
+.metric{text-align:right}
+.metric b{display:block; font-family:var(--display); font-weight:800; font-size:clamp(40px, 5vw, 60px); letter-spacing:-0.045em; line-height:1; color:var(--mark)}
+.metric span{font-size:14px; opacity:.8; display:block; max-width:18ch; margin-left:auto; margin-top:6px; line-height:1.35}
+.case-body{padding:26px 30px 28px; display:grid; grid-template-columns:repeat(3, minmax(0,1fr)); gap:26px}
+.case-body h4{font-family:var(--body); font-size:13px; font-weight:600; letter-spacing:.08em; text-transform:uppercase; color:var(--muted); margin-bottom:8px}
+.case-body p{font-size:16px; line-height:1.6}
+.case-foot{padding:0 30px 26px; display:flex; flex-wrap:wrap; gap:8px; align-items:center}
+.tag{font-size:13px; font-weight:500; padding:4px 11px; border-radius:999px; background:var(--wash); color:var(--muted)}
+.tag.live{background:transparent; border:1px solid var(--mark); color:var(--ink)}
+.case-foot a{margin-left:auto; font-size:15px; font-weight:600; text-underline-offset:4px}
+@media (max-width:760px){
+  .case-top{grid-template-columns:1fr; padding:24px 22px}
+  .metric{text-align:left} .metric span{margin-left:0}
+  .case-body{grid-template-columns:1fr; padding:22px; gap:18px}
+  .case-foot{padding:0 22px 22px} .case-foot a{margin-left:0; flex-basis:100%}
+}
+
+.more{display:grid; grid-template-columns:repeat(3, minmax(0,1fr)); gap:16px; margin-top:24px}
+.small{background:var(--wash); border-radius:16px; padding:22px; display:grid; gap:10px; align-content:start}
+.small .who{font-size:13px; font-weight:600; letter-spacing:.08em; text-transform:uppercase; color:var(--muted)}
+.small h3{font-size:19px; font-weight:700; line-height:1.2}
+.small p{font-size:15px; color:var(--muted); line-height:1.55}
+.small .out{color:var(--ink); font-weight:600; font-size:15px}
+@media (max-width:860px){ .more{grid-template-columns:1fr} }
+
+/* ---------- experience ---------- */
+.job{display:grid; grid-template-columns:150px minmax(0,1fr); gap:28px; padding:26px 20px; margin-inline:-20px; border-radius:14px; transition:background .15s ease}
+.job:hover{background:var(--wash)}
+.job .when{font-size:13px; font-weight:600; letter-spacing:.04em; color:var(--muted); padding-top:4px; font-variant-numeric:tabular-nums; text-transform:uppercase}
+.job h3{font-size:20px; font-weight:700}
+.job .org{color:var(--muted); font-size:15px; margin-top:2px}
+.job ul{margin-top:12px; display:grid; gap:6px}
+.job li{position:relative; padding-left:18px; font-size:16px}
+.job li::before{content:""; position:absolute; left:0; top:.72em; width:7px; height:2px; background:var(--muted)}
+.job .tags{display:flex; flex-wrap:wrap; gap:6px; margin-top:14px}
+.job.early h3{color:var(--muted)}
+@media (max-width:640px){ .job{grid-template-columns:1fr; gap:6px} }
+
+/* ---------- skills ---------- */
+.skills{display:grid; grid-template-columns:repeat(2, minmax(0,1fr)); gap:0 40px}
+.skill{padding-block:18px; border-top:1px solid var(--line); display:grid; grid-template-columns:150px minmax(0,1fr); gap:16px}
+.skill h4{font-family:var(--body); font-size:15px; font-weight:600}
+.skill p{font-size:15px; color:var(--muted); line-height:1.6}
+@media (max-width:860px){ .skills{grid-template-columns:1fr} }
+@media (max-width:480px){ .skill{grid-template-columns:1fr; gap:4px} }
+.edu{display:grid; grid-template-columns:repeat(2, minmax(0,1fr)); gap:16px; margin-top:36px}
+.edu div{background:var(--wash); border-radius:14px; padding:20px 22px; display:grid; gap:2px}
+.edu b{font-family:var(--display); font-size:18px; font-weight:700}
+.edu span{font-size:15px; color:var(--muted)}
+@media (max-width:640px){ .edu{grid-template-columns:1fr} }
+
+/* ---------- contact ---------- */
+.contact{background:var(--navy); color:var(--on-navy); border-radius:22px; padding:44px 40px; display:grid; gap:32px}
+.contact h2{font-size:clamp(32px, 4.4vw, 48px); font-weight:800; letter-spacing:-0.035em}
+.contact .lead{opacity:.8; max-width:52ch; margin-top:14px}
+.contact .btn{border-color:var(--on-navy); color:var(--on-navy)}
+.contact .btn:hover{background:rgba(255,255,255,.08)}
+.contact .btn.main{border-color:var(--mark); color:var(--mark-ink)}
+.mailrow{display:flex; flex-wrap:wrap; align-items:center; gap:12px; font-size:18px; font-weight:600}
+.mailrow span{user-select:all; word-break:break-all}
+.copy{font:inherit; font-size:13px; font-weight:600; padding:5px 12px; border-radius:999px; cursor:pointer; background:transparent; color:var(--on-navy); border:1px solid rgba(255,255,255,.35)}
+.copy:hover{background:rgba(255,255,255,.1)}
+
+form{background:var(--paper); color:var(--ink); border-radius:16px; padding:26px; display:grid; gap:16px}
+form h3{font-size:20px; font-weight:700}
+.reason{display:flex; flex-wrap:wrap; gap:8px}
+.reason input{position:absolute; opacity:0; pointer-events:none}
+.reason label{font-size:14px; font-weight:600; padding:8px 14px; border-radius:999px; border:1.5px solid var(--line); cursor:pointer}
+.reason input:checked + label{background:var(--ink); border-color:var(--ink); color:var(--paper)}
+.reason input:focus-visible + label{outline:2px solid var(--ink); outline-offset:2px}
+.pair{display:grid; grid-template-columns:1fr 1fr; gap:14px}
+.field{display:grid; gap:6px; min-width:0}
+.field label{font-size:14px; font-weight:600}
+input[type=text], input[type=email], textarea{width:100%; font:inherit; font-size:16px; color:var(--ink); background:var(--wash); border:1.5px solid transparent; border-radius:10px; padding:11px 13px}
+textarea{min-height:110px; resize:vertical}
+input:focus, textarea:focus{outline:none; border-color:var(--ink)}
+.err{font-size:14px; font-weight:600; color:#C0392B}
+.formfoot{display:flex; flex-wrap:wrap; gap:12px; align-items:center; justify-content:space-between}
+.formfoot small{font-size:13px; color:var(--muted)}
+.ready{display:grid; gap:12px}
+.ready pre{white-space:pre-wrap; font-family:var(--body); font-size:14px; background:var(--wash); border-radius:10px; padding:14px; margin:0; max-height:240px; overflow:auto}
+.ready .row{display:flex; flex-wrap:wrap; gap:10px}
+form .btn{border-color:var(--ink); color:var(--ink)}
+form .btn.main{border-color:var(--mark); color:var(--mark-ink)}
+@media (max-width:640px){ .contact{padding:30px 20px; border-radius:18px} form{padding:20px} .pair{grid-template-columns:1fr} }
+
+footer{display:flex; flex-wrap:wrap; justify-content:space-between; gap:10px; font-size:14px; color:var(--muted); padding-top:28px}
+</style>
+
+</head>
+<body>
+<div class="shell">
+  <aside class="rail">
+    <span class="kicker">Portfolio · 2026</span>
+    <h1 class="name">Paramee<br>Samarathunga</h1>
+    <div class="role"><span>Senior Marketing Specialist</span><span>Head of Marketing at PineGen AI · MBA</span></div>
+    <p class="pitch">I turn complex B2B and AI products into clear positioning, organic growth and pipeline.</p>
+    <nav class="index" aria-label="Sections">
+      <a href="#about">About</a>
+      <a href="#work">Selected work</a>
+      <a href="#experience">Experience</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="cta">
+      <a class="btn main" href="resume.pdf" target="_blank" rel="noopener">Download résumé</a>
+      <a class="btn" href="#contact">Get in touch</a>
+    </div>
+    <div class="links">
+      <a href="https://www.linkedin.com/in/parameesamarathunga" target="_blank" rel="noopener">LinkedIn ↗</a>
+      <a href="https://github.com/SSParamee" target="_blank" rel="noopener">GitHub ↗</a>
+      <a href="#contact">Email</a>
+    </div>
+    <p class="status"><i aria-hidden="true"></i><span><b>Open to senior marketing roles.</b> Remote, hybrid or relocation. Sri Lanka, GMT+5:30.</span></p>
+  </aside>
+
+  <main>
+    <nav class="jump" aria-label="Jump to">
+      <a href="#about">About</a><a href="#work">Work</a><a href="#experience">Experience</a><a href="#skills">Skills</a><a href="#contact">Contact</a>
+    </nav>
+
+    <!-- ABOUT -->
+    <section id="about">
+      <div class="sec-label">About</div>
+      <p class="statement">I started out writing API documentation. Seven years later I <span class="hl">lead a marketing team</span>.</p>
+      <div class="about-text">
+        <p>That path is the reason I'm useful to technical companies. I can sit with engineers, understand how the product actually works, and turn it into <strong>positioning buyers understand and content that ranks</strong>.</p>
+        <p>At WSO2 and Creately I wrote for developers and 10M+ SaaS users. At Creately and with agency clients in the UK, Australia, the US and the EU I moved into SEO and content strategy. Now, at <strong>PineGen AI</strong>, I'm building the marketing function from zero: brand, demand generation, SEO, partnerships and analytics.</p>
+      </div>
+
+      <div class="numbers">
+        <div class="num"><b>50K+</b><span>monthly organic visits from a SaaS repositioning</span></div>
+        <div class="num"><b>100K+</b><span>organic visits for agency clients, no paid spend</span></div>
+        <div class="num"><b>50+</b><span>qualified inquiries a month across client sites</span></div>
+        <div class="num"><b>−75%</b><span>handling time from an AI agent I built at IFS</span></div>
+      </div>
+
+      <div class="shift">
+        <div class="shift-head">
+          <h3>From documentation to marketing</h3>
+          <div class="legend"><span>Technical writing</span><span class="m">Marketing</span></div>
+        </div>
+        <div class="track">
+          <div class="stop"><span class="y">2019</span><span class="t">Technical Writer</span><span class="c">WSO2</span></div>
+          <div class="stop m"><span class="y">2021</span><span class="t">SEO &amp; content</span><span class="c">Creately</span></div>
+          <div class="stop m"><span class="y">2024</span><span class="t">Content &amp; growth consultant</span><span class="c">UK agency + clients</span></div>
+          <div class="stop m"><span class="y">2026</span><span class="t">Head of Marketing</span><span class="c">PineGen AI</span></div>
+        </div>
+      </div>
+
+      <div class="seeking">
+        <div><span>Looking for</span><b>Senior Marketing Specialist or Marketing Manager</b></div>
+        <div><span>Industries</span><b>B2B SaaS, AI, fintech, developer tools</b></div>
+        <div><span>Work setup</span><b>Remote, hybrid or relocation</b></div>
+      </div>
+    </section>
+
+    <!-- WORK -->
+    <section id="work">
+      <div class="sec-label">Selected work</div>
+      <p class="work-intro">Four projects that show how I work: the problem, what I did, and what changed. Public work is linked so you can check it.</p>
+
+      <article class="case">
+        <div class="case-top">
+          <div><span class="who">PineGen AI · Head of Marketing · 2026</span><h3>Building marketing from zero for an AI trading product</h3></div>
+          <div class="metric"><b>0 → 1</b><span>marketing function, team and reporting</span></div>
+        </div>
+        <div class="case-body">
+          <div><h4>Problem</h4><p>A new product category, AI that writes TradingView Pine Script, selling to developers and retail traders. No brand, no channels, no tracking.</p></div>
+          <div><h4>What I did</h4><p>Hired and lead a team of 4. Wrote the go-to-market plan across SEO, LinkedIn thought leadership, ABM, SendGrid nurture, Reddit and affiliates.</p></div>
+          <div><h4>Outcome so far</h4><p>GA4, Search Console and Looker Studio dashboards running from the first weeks, so every channel is measured against signups and pipeline.</p></div>
+        </div>
+        <div class="case-foot"><span class="tag live">In progress</span><span class="tag">Go-to-market</span><span class="tag">Team leadership</span><span class="tag">ABM</span><span class="tag">Analytics</span></div>
+      </article>
+
+      <article class="case">
+        <div class="case-top">
+          <div><span class="who">Creately · Content &amp; SEO · 2021–2023</span><h3>Search content behind a repositioning of a 10M-user SaaS platform</h3></div>
+          <div class="metric"><b>50K+</b><span>monthly organic visits</span></div>
+        </div>
+        <div class="case-body">
+          <div><h4>Problem</h4><p>Creately was moving from "diagramming tool" to visual collaboration and had little search presence for the new positioning.</p></div>
+          <div><h4>What I did</h4><p>Wrote 10+ long-form articles (1,000 to 3,500 words) from keyword and competitor research, and built the competitor-research framework the team still uses.</p></div>
+          <div><h4>Outcome</h4><p>50K+ monthly organic visits with 6 to 11 minute average read times. I also owned release messaging for every product cycle.</p></div>
+        </div>
+        <div class="case-foot"><span class="tag">SEO</span><span class="tag">Positioning</span><span class="tag">Product marketing</span></div>
+      </article>
+
+      <article class="case">
+        <div class="case-top">
+          <div><span class="who">Enliven Designers · UK agency · 2024–now</span><h3>Organic lead generation for clients in four markets, without ads</h3></div>
+          <div class="metric"><b>100K+</b><span>organic visits, 50+ inquiries a month</span></div>
+        </div>
+        <div class="case-body">
+          <div><h4>Problem</h4><p>Small and regulated businesses in the UK, Australia, the US and the EU needed leads but had no budget for paid media.</p></div>
+          <div><h4>What I did</h4><p>Audits and keyword research before every brief. Wrote a 50+ page care-home site to Care Inspectorate Wales standards and ran a 10-month editorial plan for a travel brand.</p></div>
+          <div><h4>Outcome</h4><p>100K+ organic visits and 50+ qualified inquiries a month across client sites, entirely from organic search.</p></div>
+        </div>
+        <div class="case-foot"><span class="tag">SEO / GEO / AEO</span><span class="tag">Content strategy</span><span class="tag">Regulated industries</span></div>
+      </article>
+
+      <article class="case">
+        <div class="case-top">
+          <div><span class="who">IFS · Senior User Education Specialist · 2024–2026</span><h3>An AI agent that took the busywork out of content requests</h3></div>
+          <div class="metric"><b>−75%</b><span>handling time, 50% faster turnaround</span></div>
+        </div>
+        <div class="case-body">
+          <div><h4>Problem</h4><p>Content change requests for IFS Cloud, an ERP with 10,000+ customers, were routed by hand and slowed every release.</p></div>
+          <div><h4>What I did</h4><p>Designed and shipped the SU-Doc Request Assistant in Microsoft 365 Copilot to triage and route requests, and wrote the contributor guides that new hires now start with.</p></div>
+          <div><h4>Outcome</h4><p>The agent is in production. The same AI-workflow thinking now runs my marketing operations at PineGen AI.</p></div>
+        </div>
+        <div class="case-foot"><span class="tag">AI workflows</span><span class="tag">Microsoft 365 Copilot</span><span class="tag">Operations</span></div>
+      </article>
+
+      <div class="more">
+        <article class="small">
+          <span class="who">LK Domains · 2026</span>
+          <h3>A .lk registration guide written for search and AI answers</h3>
+          <p>Opened with the question applicants get stuck on, structured around real queries for featured snippets, and formatted so AI tools quote it correctly.</p>
+          <span class="out">Live on domains.lk</span>
+        </article>
+        <article class="small">
+          <span class="who">Neo Tourism · 2026</span>
+          <h3>Paid and organic social for a travel brand</h3>
+          <p>Facebook and Instagram calendar, Google, Meta and LinkedIn campaigns, short-form video and Mailchimp email.</p>
+          <span class="out">Ongoing</span>
+        </article>
+        <article class="small">
+          <span class="who">Project Pickle NY · 2026</span>
+          <h3>Brand identity and launch site for a New York apparel brand</h3>
+          <p>Typography, palette and tone of voice from scratch, then a hand-built site on Cloudflare Pages.</p>
+          <a class="out" href="https://projectpickleny.com" target="_blank" rel="noopener">projectpickleny.com ↗</a>
+        </article>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section id="experience">
+      <div class="sec-label">Experience</div>
+      <div class="job">
+        <span class="when">Jul 2026 – Now</span>
+        <div>
+          <h3>Head of Marketing</h3>
+          <div class="org">PineGen AI (Ranga Technologies) · Sri Lanka</div>
+          <ul>
+            <li>Built the marketing function and hired a team of 4; own brand, demand generation and growth across B2B and B2C.</li>
+            <li>Run a multi-channel go-to-market plan: SEO, content, partnerships, sponsorships, events and communities.</li>
+            <li>Set up AI-assisted workflows and Looker Studio reporting on pipeline, conversion and ROI.</li>
+          </ul>
+        </div>
+      </div>
+      <div class="job">
+        <span class="when">Feb 2024 – Now</span>
+        <div>
+          <h3>Marketing &amp; Content Consultant</h3>
+          <div class="org">Freelance · Enliven Designers (UK), Neo Tourism, LK Domains, Project Pickle NY</div>
+          <ul>
+            <li>SEO, GEO and AEO strategy for agency clients in the UK, Australia, the US and the EU: 100K+ organic visits, 50+ inquiries a month.</li>
+            <li>Paid campaigns on Google, Meta and LinkedIn, social calendars and email for a travel brand.</li>
+          </ul>
+        </div>
+      </div>
+      <div class="job">
+        <span class="when">Apr 2024 – Jan 2026</span>
+        <div>
+          <h3>Senior User Education Specialist</h3>
+          <div class="org">IFS · Colombo</div>
+          <ul>
+            <li>Owned IFS Cloud content end to end for a product with 10,000+ customers worldwide.</li>
+            <li>Built a Microsoft 365 Copilot agent, now in production, that cut handling time 75%.</li>
+          </ul>
+        </div>
+      </div>
+      <div class="job">
+        <span class="when">Jul 2021 – Dec 2023</span>
+        <div>
+          <h3>Technical Writer, Content &amp; SEO</h3>
+          <div class="org">Creately · Melbourne, remote</div>
+          <ul>
+            <li>SEO articles for a repositioning campaign: 50K+ monthly organic visits.</li>
+            <li>Release messaging, blog, social and ad content; built the team's competitor-research framework.</li>
+          </ul>
+        </div>
+      </div>
+      <div class="job early">
+        <span class="when">Jan 2019 – Jun 2021</span>
+        <div>
+          <h3>Technical Writer</h3>
+          <div class="org">WSO2 · Colombo</div>
+          <ul>
+            <li>Open Banking documentation for UK, EU and Australian standards; 100+ merged pull requests on a public GitHub repo.</li>
+            <li>Built WSO2's first self-paced Open Banking course and supported Marketing and Sales at each release.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills">
+      <div class="sec-label">Skills</div>
+      <div class="skills">
+        <div class="skill"><h4>Strategy</h4><p>Go-to-market, positioning, campaign planning, ABM, team building, agency management</p></div>
+        <div class="skill"><h4>Search</h4><p>SEO, GEO, AEO, technical SEO (schema, llms.txt), Ahrefs, SEMrush, Ubersuggest</p></div>
+        <div class="skill"><h4>Paid media</h4><p>Google Ads, Meta Ads Manager, LinkedIn Campaign Manager</p></div>
+        <div class="skill"><h4>Email &amp; CRM</h4><p>HubSpot, SendGrid, Mailchimp, nurture and lifecycle flows</p></div>
+        <div class="skill"><h4>Analytics</h4><p>GA4, Tag Manager, Search Console, Looker Studio, attribution, A/B testing</p></div>
+        <div class="skill"><h4>Creative &amp; AI</h4><p>Copywriting, Figma, Canva, CapCut, Claude, ChatGPT, Copilot, HTML/CSS</p></div>
+      </div>
+      <div class="edu">
+        <div><b>MBA, Business Administration</b><span>University of West London · 2024</span></div>
+        <div><b>BSc, Computer Security</b><span>University of Plymouth · 2019</span></div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact">
+      <div class="contact">
+        <div>
+          <h2>Hiring for marketing? Let's talk.</h2>
+          <p class="lead">I reply within one business day. References are available on request, and recommendations from colleagues and clients are on LinkedIn.</p>
+        </div>
+        <div class="mailrow"><span id="email">parameesamarathunga@gmail.com</span><button class="copy" type="button" id="copyEmail">Copy</button></div>
+        <div class="cta">
+          <a class="btn main" href="resume.pdf" target="_blank" rel="noopener">Download résumé</a>
+          <a class="btn" href="https://www.linkedin.com/in/parameesamarathunga" target="_blank" rel="noopener">LinkedIn ↗</a>
+        </div>
+
+        <form id="msgForm" novalidate>
+          <h3>Send a message</h3>
+          <div class="reason" role="radiogroup" aria-label="Reason">
+            <input type="radio" name="reason" id="r-job" value="Job opportunity" checked><label for="r-job">Job opportunity</label>
+            <input type="radio" name="reason" id="r-free" value="Freelance project"><label for="r-free">Freelance project</label>
+            <input type="radio" name="reason" id="r-other" value="Something else"><label for="r-other">Something else</label>
+          </div>
+          <div class="pair">
+            <div class="field"><label for="f-name">Name</label><input type="text" id="f-name" autocomplete="name"></div>
+            <div class="field"><label for="f-email">Email</label><input type="email" id="f-email" autocomplete="email"></div>
+          </div>
+          <div class="field"><label for="f-company">Company</label><input type="text" id="f-company" autocomplete="organization"></div>
+          <div class="field"><label for="f-msg">Message</label><textarea id="f-msg" placeholder="The role or project, and a link to the job description if you have one."></textarea></div>
+          <p class="err" id="err" role="alert"></p>
+          <div class="formfoot"><button class="btn main" type="submit">Send message</button><small>Freelance: SEO, content and analytics projects, a few at a time.</small></div>
+        </form>
+
+        <form class="ready" id="ready" hidden>
+          <h3>Your message is ready</h3>
+          <pre id="summary"></pre>
+          <div class="row">
+            <button class="btn main" type="button" id="copyMsg">Copy message</button>
+            <a class="btn" id="mailMsg" href="#">Open in email</a>
+            <button class="btn" type="button" id="editMsg">Edit</button>
+          </div>
+        </form>
+      </div>
+      <footer><span>© 2026 Paramee Samarathunga</span><span>Sri Lanka · GMT+5:30</span></footer>
+    </section>
+  </main>
+</div>
+
+<script>
+(function(){
+  // highlight the current section in the rail
+  var links = document.querySelectorAll('.index a');
+  if('IntersectionObserver' in window){
+    var io = new IntersectionObserver(function(entries){
+      entries.forEach(function(e){
+        if(e.isIntersecting){
+          links.forEach(function(a){ a.classList.toggle('on', a.getAttribute('href') === '#' + e.target.id); });
+        }
+      });
+    }, {rootMargin:'-35% 0px -60% 0px'});
+    document.querySelectorAll('main section').forEach(function(s){ io.observe(s); });
+  }
+
+  function copy(text, btn, targetId){
+    var label = btn.textContent;
+    function ok(){ btn.textContent = 'Copied'; setTimeout(function(){ btn.textContent = label; }, 1800); }
+    function fallback(){
+      var r = document.createRange(); r.selectNodeContents(document.getElementById(targetId));
+      var s = window.getSelection(); s.removeAllRanges(); s.addRange(r); btn.textContent = 'Press Ctrl+C';
+    }
+    try{ navigator.clipboard.writeText(text).then(ok, fallback); }catch(e){ fallback(); }
+  }
+  document.getElementById('copyEmail').addEventListener('click', function(){ copy(document.getElementById('email').textContent, this, 'email'); });
+
+  var form = document.getElementById('msgForm'), ready = document.getElementById('ready'), err = document.getElementById('err');
+  form.addEventListener('submit', function(e){
+    e.preventDefault();
+    var name = document.getElementById('f-name').value.trim();
+    var email = document.getElementById('f-email').value.trim();
+    var msg = document.getElementById('f-msg').value.trim();
+    var missing = [];
+    if(!name) missing.push('your name');
+    if(!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) missing.push('a valid email');
+    if(!msg) missing.push('a message');
+    if(missing.length){ err.textContent = 'Please add ' + missing.join(', ') + '.'; return; }
+    err.textContent = '';
+    var reason = form.querySelector('input[name=reason]:checked').value;
+    var text = ['Reason: ' + reason, 'Name: ' + name, 'Email: ' + email,
+      'Company: ' + (document.getElementById('f-company').value.trim() || '-'), '', msg].join('\n');
+    document.getElementById('summary').textContent = text;
+    document.getElementById('mailMsg').href = 'mailto:parameesamarathunga@gmail.com?subject=' +
+      encodeURIComponent(reason + ' from ' + name) + '&body=' + encodeURIComponent(text);
+    form.hidden = true; ready.hidden = false;
+  });
+  document.getElementById('copyMsg').addEventListener('click', function(){ copy(document.getElementById('summary').textContent, this, 'summary'); });
+  document.getElementById('editMsg').addEventListener('click', function(){ ready.hidden = true; form.hidden = false; });
+})();
+</script>
+</body>
+</html>
